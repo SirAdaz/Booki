@@ -1,0 +1,117 @@
+/* activites a marseille */
+
+.activites {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.titre_activites {
+  margin-bottom: 20px;
+}
+
+.activite {
+  display: flex;
+  height: 600px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cube_activite {
+  border-radius: 15px;
+  width: 23%;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cube_activite:hover {
+  box-shadow: 6px 6px 1px #0065FC;
+}
+
+.cube_activites_double {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 23%;
+}
+
+.cube_activite_double {
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  cursor: pointer;
+}
+
+.cube_activite_double:hover {
+  box-shadow: 6px 6px 1px #0065FC;
+}
+
+.titre_article_activites {
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  width: 95%;
+  font-weight: bold;
+}
+
+.img_activites_1 {
+background-image:url(img/activites/4_small/img_1.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 530px;
+border-radius: 15px 15px 0 0;
+}
+
+.img_activites_2 {
+background-image:url(img/activites/4_small/img_2.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 250px;
+border-radius: 15px 15px 0 0;
+margin: 0;
+}
+
+.img_activites_3 {
+background-image:url(img/activites/4_small/img_3.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 150px;
+border-radius: 15px 15px 0 0;
+margin: 0;
+}
+
+.img_activites_4 {
+background-image:url(img/activites/4_small/img_4.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 530px;
+border-radius: 15px 15px 0 0;
+}
+
+.img_activites_5 {
+background-image:url(img/activites/4_small/img_5.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 180px;
+border-radius: 15px 15px 0 0;
+margin: 0;
+}
+
+.img_activites_6 {
+background-image:url(img/activites/4_small/img_6.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 220px;
+border-radius: 15px 15px 0 0;
+margin: 0;
+}

@@ -1,0 +1,36 @@
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+.nav-right {
+  padding-bottom: 35px;
+}
+
+.nav-hebergements {
+  padding: 49px 35px;
+  cursor: pointer;
+}
+
+.nav-hebergements:hover {
+  border-top: 5px solid #0065FC;
+  color: #0065FC;
+}
+.nav-activites {
+  padding: 49px 35px;
+  cursor: pointer;
+}
+
+.nav-activites:hover {
+  border-top: 5px solid #0065FC;
+  color: #0065FC;
+}
+
+.logo-booki {
+  margin: 30px;
+  height: 40px;
+  width: auto;
+}
